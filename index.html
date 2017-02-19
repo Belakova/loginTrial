@@ -1,0 +1,65 @@
+<!Doctype html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css?v=1">
+
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+    <script src="./index.js?v=10"></script>
+
+</head>
+
+<body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+        <form class="myForm">
+
+            <h4 id="signUpText">Sign in</h4>
+            <div class="separate">
+
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">
+                  <span class="glyphicon glyphicon-envelope"></span>
+                </span>
+                <input class="inputs form-control " type="text" placeholder="email" id="email" />
+            </div>
+
+
+            <br />
+            <div class="input-group">
+                <span class="input-group-addon">
+                  <span class="glyphicon glyphicon-lock"></span>
+                </span>
+                <input class="inputs form-control" type="password" placeholder="password" id="password" />
+
+            </div><br />
+
+
+            <div id="error">
+             </div>
+
+            <button id="loginBtn" class="btn btn-info">Login</button>
+
+
+
+            <div>Don't have an account? <a href="register.html"> Sign up</a> </div>
+        </form>
+        </div>
+      </div>
+    </div>
+
+</body>
+
+</html>

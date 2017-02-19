@@ -1,0 +1,49 @@
+.myForm {
+
+    align: center;
+    text-align: center;
+    padding: 5%;
+    margin-top: 5%;
+    background-color: #f9fbfc;
+    border: 1px solid #f9f9f9;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px #e6f3f7;
+}
+
+.separate{
+  margin-top: -5%;
+
+  border-bottom: 1px solid white;
+}
+.inputs {
+    margin-bottom: 2%;
+    float: left;
+}
+
+#error {
+    color: #c10029;
+    text-align: center;
+}
+
+#loginBtn {
+    margin-top: 2%;
+}
+
+#registerBtn {
+    margin-top: 2%;
+}
+
+.inputs.tooltip .tooltip-right {
+    margin-left: 10px;
+    padding: 2px 5px;
+    background-color: #dbf5ff;
+    z-index: 10;
+}
+
+#signUpText {
+    border-radius: 25px;
+    margin: auto;
+    text-align: center;
+    color: #56aece;
+    padding-bottom: 10%;
+}
